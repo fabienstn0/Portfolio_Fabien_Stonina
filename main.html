@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabien STONINA - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <nav class="navbar-fixed-top">
+        <ul class="navbar">
+            <li><a class="navbar_list" href="#accueil">Accueil</a></li>
+            <li><a class="navbar_list" href="#formation">Formation</a></li>
+            <li><a class="navbar_list" href="#experience">Experience</a></li>
+            <li><a class="navbar_list" href="#projet">Projets</a></li>
+            <li><a class="navbar_list" href="#veille">Veille</a></li>
+            <li><a class="navbar_list" href="#tableau">Tableau</a></li>
+        </ul>
+    </nav>
+
+    <header id="header">
+        <div id='accueil' class="container">
+            <h1>Fabien STONINA</h1>
+            <p>Développeur en alternance, passionné par les nouvelles technologies</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id='formation' class="section" data-section>
+            <h2>📚 Formation</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-animate>
+                    <h3>Bac S</h3>
+                    <p>Lycée Salvador Allende</p>
+                </div>
+                <div class="timeline-item" data-animate>
+                    <h3>Licence de Chimie</h3>
+                    <p>Diplôme obtenu en 3 ans</p>
+                </div>
+                <div class="timeline-item" data-animate>
+                    <h3>BTS SIO option SLAM</h3>
+                    <p>Diplôme en alternance sur 2 ans</p>
+                </div>
+                <div class="timeline-item" data-animate>
+                    <h3>Poursuite d'études en informatique</h3>
+                    <p>Après l'obtention du BTS SIO SLAM</p>
+                </div>
+            </div>
+        </section>
+
+        <section id='experience' class="section" data-section>
+            <h2>💼 Expérience Professionnelle</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-animate>
+                    <h3>Stage chez Cyber&Co</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Mise à jour/Versionning de templates</li>
+                        <li>Gestion de parc informatique</li>
+                        <li>Debugging</li>
+                        <li>Import de base de données</li>
+                        <li>Travail en mode projet (Jira)</li>
+                    </ul>
+                </div>
+                <button class="button-34">
+                    <a href="CV/Fabien Stonina CV.pdf" 
+                        target="_blank" 
+                        style="color: #ffffff; text-decoration: none; font-weight: bold;">
+                        📥 Télécharger mon CV
+                    </a>
+                </button>
+            </div>
+        </section>
+
+        <section id='projet' class="section" data-section>
+            <h2>🚀 Projets Réalisés</h2>
+            <div class="applications">
+                <div class="app-card" data-animate>
+                    <h4>Création d'une API</h4>
+                    <p>Avec le framework Django, méthode HTTP, route API sécurisée.</p></br>
+                    <button class="button-34">
+                        <a href="https://pokecardmasters.lebaron.sh/" 
+                            target="_blank" 
+                            style="color: #ffffff; text-decoration: none; font-weight: bold;">
+                            Application
+                        </a>
+                    </button>
+                    <button class="button-34">
+                        <a href="https://www.dropbox.com/scl/fi/k0f41ko5s9uo14bf1kb7d/project.zip?rlkey=7lm021tcg6fec1lhs4snqid6y&st=hdpczcln&dl=1" download
+                            style="color: #ffffff; text-decoration: none; font-weight: bold;">
+                            Telecharger le code
+                        </a>
+                    </button>
+                    <button class="button-34">
+                        <a href="projet1.html" 
+                            target="_self" 
+                            style="color: #ffffff; text-decoration: none; font-weight: bold;">
+                            Images
+                        </a>
+                    </button>
+                </div>
+                <div class="app-card" data-animate>
+                    <h4>Application web/mobile</h4>
+                    <p>Application web utilisant le framework Expo avec une base de données mariadb.</p></br>
+                    <button class="button-34">
+                        <a href="https://pokecardmasters.lebaron.sh/" 
+                            target="_blank" 
+                            style="color: #ffffff; text-decoration: none; font-weight: bold;">
+                            Application
+                        </a>
+                    </button>
+                    <button class="button-34">
+                        <a href="https://www.dropbox.com/scl/fi/gve9py018m5i4t0izm8za/app_expo.zip?rlkey=wycijzflpdju2xeem6ebc9dfu&st=6y4184ya&dl=1" download
+                            style="color: #ffffff; text-decoration: none; font-weight: bold;">
+                            Telecharger le code
+                        </a>
+                    </button>
+                    <button class="button-34">
+                        <a href="projet2.html" 
+                            target="_self" 
+                            style="color: #ffffff; text-decoration: none; font-weight: bold;">
+                            Images
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id='veille' class="section veille" data-section>
+            <h2>🤖 Veille Technologique : Intelligence Artificielle</h2>
+            <p style="margin-bottom: 30px; font-size: 1.1em; color: #555;">Ma veille technologique porte sur l'Intelligence Artificielle (IA), une technologie révolutionnaire qui transforme notre monde. Découvrons ensemble son évolution, ses applications actuelles et ses perspectives d'avenir.</p>
+            
+            <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 20px;">📅 Histoire de l'IA</h3>
+            <div class="veille-timeline">
+                <div class="veille-card" data-animate>
+                    <div class="year">1950</div>
+                    <h4>Test de Turing</h4>
+                    <p>Alan Turing propose le célèbre "Test de Turing" pour évaluer l'intelligence d'une machine.</p>
+                </div>
+                <div class="veille-card" data-animate>
+                    <div class="year">1956</div>
+                    <h4>Naissance de l'IA</h4>
+                    <p>Le terme "Intelligence Artificielle" est officiellement créé lors de la conférence de Dartmouth.</p>
+                </div>
+                <div class="veille-card" data-animate>
+                    <div class="year">1997</div>
+                    <h4>Deep Blue</h4>
+                    <p>L'ordinateur IBM Deep Blue bat le champion du monde d'échecs Garry Kasparov.</p>
+                </div>
+                <div class="veille-card" data-animate>
+                    <div class="year">2010s</div>
+                    <h4>Renaissance de l'IA</h4>
+                    <p>Renaissance de l'IA grâce aux réseaux de neurones profonds et à l'augmentation de la puissance de calcul.</p>
+                </div>
+            </div>
+
+            <h3 style="color: #667eea; margin-top: 40px; margin-bottom: 20px;">🌟 Applications Actuelles</h3>
+            <div class="projects">
+                <div class="project-card" data-animate>
+                    <h3>💬 Traitement du Langage</h3>
+                    <p>ChatGPT, Claude, Gemini révolutionnent la communication homme-machine</p>
+                </div>
+                <div class="project-card" data-animate>
+                    <h3>🎨 Génération d'Images</h3>
+                    <p>DALL-E, Midjourney, Stable Diffusion créent des images à partir de texte</p>
+                </div>
+                <div class="project-card" data-animate>
+                    <h3>🚗 Véhicules Autonomes</h3>
+                    <p>Tesla, Waymo développent des voitures entièrement autonomes</p>
+                </div>
+                <div class="project-card" data-animate>
+                    <h3>🏥 Santé</h3>
+                    <p>Diagnostic médical, découverte de médicaments, chirurgie assistée</p>
+                </div>
+                <div class="project-card" data-animate>
+                    <h3>💻 Programmation</h3>
+                    <p>GitHub Copilot, CodeT5 assistent les développeurs dans leur code</p>
+                </div>
+                <div class="project-card" data-animate>
+                    <h3>💰 Finance</h3>
+                    <p>Trading algorithmique, analyse de risques, détection de fraudes</p>
+                </div>
+            </div>
+
+            <h3 style="color: #667eea; margin-top: 40px; margin-bottom: 20px;">🔮 Perspectives d'Avenir</h3>
+            <div class="impacts">
+                <div class="impact-card" data-animate>
+                    <h4>Intelligence Artificielle Générale (AGI)</h4>
+                    <p>Développement d'IA capables de comprendre et d'apprendre n'importe quelle tâche intellectuelle humaine</p>
+                </div>
+                <div class="impact-card" data-animate>
+                    <h4>Transformation du Travail</h4>
+                    <p>Transformation complète du marché du travail avec l'automatisation de nombreux métiers</p>
+                </div>
+                <div class="impact-card" data-animate>
+                    <h4>IA Quantique</h4>
+                    <p>Fusion de l'IA et de l'informatique quantique pour des capacités de calcul révolutionnaires</p>
+                </div>
+                <div class="impact-card-white" data-animate>
+                    
+                </div>
+                <div class="impact-card" data-animate>
+                    <h4>Singularité Technologique</h4>
+                    <p>Moment hypothétique où l'IA dépassera l'intelligence humaine dans tous les domaines</p>
+                </div>
+            </div>
+
+            <h3 style="color: #667eea; margin-top: 40px; margin-bottom: 20px;">💡 Impact sur le Développement</h3>
+            <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding: 15px; margin: 10px 0; background: white; border-radius: 8px; border-left: 4px solid #667eea;" data-animate>
+                        <strong>🔧 Transformation du code :</strong> L'IA transforme notre façon de coder avec des assistants intelligents et la génération automatique de code
+                    </li>
+                    <li style="padding: 15px; margin: 10px 0; background: white; border-radius: 8px; border-left: 4px solid #764ba2;" data-animate>
+                        <strong>🤝 Collaboration :</strong> Les développeurs doivent s'adapter et apprendre à collaborer avec l'IA plutôt que d'être remplacés
+                    </li>
+                    <li style="padding: 15px; margin: 10px 0; background: white; border-radius: 8px; border-left: 4px solid #667eea;" data-animate>
+                        <strong>🚀 Applications intelligentes :</strong> L'IA permet de créer des applications plus intelligentes et d'automatiser des tâches complexes
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id='tableau' class="section" data-section>
+            <h2>📄 Tableau de synthèse - Épreuve E4 BTS SIO</h2>
+            <div class="pdf-section">
+                <div class="pdf-container">
+                    <p align='center'><img src='excel/annexe.jpg' style="width: 700px; height: 900px;"/></p>
+                    <p style="text-align: center; margin-top: 15px; color: #666;">
+                        <a href="excel/annexe.pdf" 
+                           target="_blank" 
+                           style="color: #667eea; text-decoration: none; font-weight: bold;">
+                            📥 Télécharger le PDF
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="footer-container">
+                <h2>📞 Contact</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <span>fabien@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>📱</span>
+                        <span>06 09 17 36 43</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <span>Caen, France</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/fabienstn0?tab=repositories" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/fabien-stonina-2906a6361/" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="anim.js"></script>
+</body>
+</html>
