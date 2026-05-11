@@ -26,9 +26,7 @@ header {
     transform: translateY(-50px);
 }
 
-header.animate {
-    animation: fadeInDown 1s forwards;
-}
+
 
 header h1 {
     font-size: 3em;
@@ -147,9 +145,7 @@ header p {
     cursor: pointer;
 }
 
-.project-card.visible {
-    animation: popIn 0.5s forwards;
-}
+
 
 .project-card:hover {
     transform: translateY(-10px) scale(1.05);
@@ -286,9 +282,7 @@ footer {
     transform: translateY(50px);
 }
 
-footer.visible {
-    animation: fadeInUp 1s forwards;
-}
+
 
 footer h2 {
     color: #667eea;
